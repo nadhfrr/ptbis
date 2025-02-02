@@ -72,15 +72,15 @@ https://templatemo.com/tm-591-villa-agency
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="<?= base_url() ?>template/index.html" class="logo">
-                            <h1>De Diamond Park</h1>
+                            <h1>De'Diamond</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="<?= base_url() ?>template/index.html" class="active">Home</a></li>
-                            <li><a href="<?= base_url() ?>template/properties.html">Properties</a></li>
-                            <li><a href="<?= base_url() ?>template/property-details.html">Property Details</a></li>
-                            <li><a href="<?= base_url() ?>template/contact.html">Contact Us</a></li>
+                            <li><a href="<?= base_url() ?>public/template/index.html" class="active">Home</a></li>
+                            <li><a href="<?= base_url() ?>public/template/properties.html">Properties</a></li>
+                            <li><a href="<?= base_url() ?>public/template/property-details.html">Property Details</a></li>
+                            <li><a href="<?= base_url() ?>public/template/contact.html">Contact Us</a></li>
                             <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -98,11 +98,11 @@ https://templatemo.com/tm-591-villa-agency
         <div class="owl-carousel owl-banner">
             <div class="item item-1">
                 <div class="header-text">
-                    <span class="category">Toronto, <em>Canada</em></span>
-                    <h2>Hurry!<br>Get the Best Villa for you</h2>
+                    <!-- <span class="category">Toronto, <em>Canada</em></span> -->
+                    <!-- <h2>Hurry!<br>Get the Best Villa for you</h2> -->
                 </div>
             </div>
-            <div class="item item-2">
+            <!-- <div class="item item-2">
                 <div class="header-text">
                     <span class="category">Melbourne, <em>Australia</em></span>
                     <h2>Be Quick!<br>Get the best villa in town</h2>
@@ -113,7 +113,7 @@ https://templatemo.com/tm-591-villa-agency
                     <span class="category">Miami, <em>South Florida</em></span>
                     <h2>Act Now!<br>Get the highest level penthouse</h2>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -122,8 +122,8 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
                 <div class="col-lg-4">
                     <div class="left-image">
-                        <img src="<?= base_url() ?>template/assets/images/featured.jpg" alt="">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
+                        <img src="<?= base_url() ?>public/template/assets/images/featured.jpg" alt="">
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -173,19 +173,19 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="info-table">
                         <ul>
                             <li>
-                                <img src="<?= base_url() ?>template/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
+                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
                                 <h4>250 m2<br><span>Total Flat Space</span></h4>
                             </li>
                             <li>
-                                <img src="<?= base_url() ?>template/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
                                 <h4>Contract<br><span>Contract Ready</span></h4>
                             </li>
                             <li>
-                                <img src="<?= base_url() ?>template/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
                                 <h4>Payment<br><span>Payment Process</span></h4>
                             </li>
                             <li>
-                                <img src="<?= base_url() ?>template/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
                                 <h4>Safety<br><span>24/7 Under Control</span></h4>
                             </li>
                         </ul>
@@ -213,7 +213,7 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="video-frame">
-                        <img src="<?= base_url() ?>template/assets/images/video-frame.jpg" alt="">
+                        <img src="<?= base_url() ?>public/template/assets/images/video-frame.jpg" alt="">
                         <a href="https://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
                     </div>
                 </div>
@@ -292,7 +292,7 @@ https://templatemo.com/tm-591-villa-agency
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="<?= base_url() ?>template/assets/images/deal-01.jpg" alt="">
+                                            <img src="<?= base_url() ?>public/template/assets/images/deal-01.jpg" alt="">
                                         </div>
                                         <div class="col-lg-3">
                                             <h4>Extra Info About Property</h4>
@@ -300,7 +300,7 @@ https://templatemo.com/tm-591-villa-agency
                                                 <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
                                             </p>
                                             <div class="icon-button">
-                                                <a href="<?= base_url() ?>template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                                                <a href="<?= base_url() ?>public/template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
                                             </div>
                                         </div>
                                     </div>
@@ -319,13 +319,13 @@ https://templatemo.com/tm-591-villa-agency
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="<?= base_url() ?>template/assets/images/deal-02.jpg" alt="">
+                                            <img src="<?= base_url() ?>public/template/assets/images/deal-02.jpg" alt="">
                                         </div>
                                         <div class="col-lg-3">
                                             <h4>Detail Info About Villa</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
                                             <div class="icon-button">
-                                                <a href="<?= base_url() ?>template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                                                <a href="<?= base_url() ?>public/template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
                                             </div>
                                         </div>
                                     </div>
@@ -344,13 +344,13 @@ https://templatemo.com/tm-591-villa-agency
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
-                                            <img src="<?= base_url() ?>template/assets/images/deal-03.jpg" alt="">
+                                            <img src="<?= base_url() ?>public/template/assets/images/deal-03.jpg" alt="">
                                         </div>
                                         <div class="col-lg-3">
                                             <h4>Extra Info About Penthouse</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
                                             <div class="icon-button">
-                                                <a href="<?= base_url() ?>template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                                                <a href="<?= base_url() ?>public/template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
                                             </div>
                                         </div>
                                     </div>
@@ -376,10 +376,10 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-01.jpg" alt=""></a>
                         <span class="category">Luxury Villa</span>
                         <h6>$2.264.000</h6>
-                        <h4><a href="<?= base_url() ?>template/property-details.html">18 New Street Miami, OR 97219</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">18 New Street Miami, OR 97219</a></h4>
                         <ul>
                             <li>Bedrooms: <span>8</span></li>
                             <li>Bathrooms: <span>8</span></li>
@@ -388,16 +388,16 @@ https://templatemo.com/tm-591-villa-agency
                             <li>Parking: <span>6 spots</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-02.jpg" alt=""></a>
                         <span class="category">Luxury Villa</span>
                         <h6>$1.180.000</h6>
-                        <h4><a href="<?= base_url() ?>template/property-details.html">54 Mid Street Florida, OR 27001</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">54 Mid Street Florida, OR 27001</a></h4>
                         <ul>
                             <li>Bedrooms: <span>6</span></li>
                             <li>Bathrooms: <span>5</span></li>
@@ -406,16 +406,16 @@ https://templatemo.com/tm-591-villa-agency
                             <li>Parking: <span>8 spots</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-03.jpg" alt=""></a>
                         <span class="category">Luxury Villa</span>
                         <h6>$1.460.000</h6>
-                        <h4><a href="<?= base_url() ?>template/property-details.html">26 Old Street Miami, OR 38540</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">26 Old Street Miami, OR 38540</a></h4>
                         <ul>
                             <li>Bedrooms: <span>5</span></li>
                             <li>Bathrooms: <span>4</span></li>
@@ -424,16 +424,16 @@ https://templatemo.com/tm-591-villa-agency
                             <li>Parking: <span>10 spots</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-04.jpg" alt=""></a>
                         <span class="category">Apartment</span>
                         <h6>$584.500</h6>
-                        <h4><a href="<?= base_url() ?>template/property-details.html">12 New Street Miami, OR 12650</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">12 New Street Miami, OR 12650</a></h4>
                         <ul>
                             <li>Bedrooms: <span>4</span></li>
                             <li>Bathrooms: <span>3</span></li>
@@ -442,16 +442,16 @@ https://templatemo.com/tm-591-villa-agency
                             <li>Parking: <span>2 cars</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-05.jpg" alt=""></a>
                         <span class="category">Penthouse</span>
                         <h6>$925.600</h6>
-                        <h4><a href="<?= base_url() ?>template/property-details.html">34 Beach Street Miami, OR 42680</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">34 Beach Street Miami, OR 42680</a></h4>
                         <ul>
                             <li>Bedrooms: <span>4</span></li>
                             <li>Bathrooms: <span>4</span></li>
@@ -460,16 +460,16 @@ https://templatemo.com/tm-591-villa-agency
                             <li>Parking: <span>2 cars</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>template/property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-06.jpg" alt=""></a>
                         <span class="category">Modern Condo</span>
                         <h6>$450.000</h6>
-                        <h4><a href="<?= base_url() ?>template/property-details.html">22 New Street Portland, OR 16540</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">22 New Street Portland, OR 16540</a></h4>
                         <ul>
                             <li>Bedrooms: <span>3</span></li>
                             <li>Bathrooms: <span>2</span></li>
@@ -478,7 +478,7 @@ https://templatemo.com/tm-591-villa-agency
                             <li>Parking: <span>3 cars</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
                 </div>
@@ -509,13 +509,13 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item phone">
-                                <img src="<?= base_url() ?>template/assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                                <img src="<?= base_url() ?>public/template/assets/images/phone-icon.png" alt="" style="max-width: 52px;">
                                 <h6>010-020-0340<br><span>Phone Number</span></h6>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="item email">
-                                <img src="<?= base_url() ?>template/assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                                <img src="<?= base_url() ?>public/template/assets/images/email-icon.png" alt="" style="max-width: 52px;">
                                 <h6>info@villa.co<br><span>Business Email</span></h6>
                             </div>
                         </div>
