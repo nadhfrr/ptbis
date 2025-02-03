@@ -77,10 +77,11 @@ https://templatemo.com/tm-591-villa-agency
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="<?= base_url() ?>public/template/index.html" class="active">Home</a></li>
-                            <li><a href="<?= base_url() ?>public/template/properties.html">Properties</a></li>
-                            <li><a href="<?= base_url() ?>public/template/property-details.html">Property Details</a></li>
-                            <li><a href="<?= base_url() ?>public/template/contact.html">Contact Us</a></li>
+                            <li><a href="<?= base_url() ?>public/template/index.html" class="active">Beranda</a></li>
+                            <li><a href="<?= base_url() ?>public/template/index.html">Tentang Kami</a></li>
+                            <li><a href="<?= base_url() ?>public/template/properties.html">Produk</a></li>
+                            <!-- <li><a href="<?= base_url() ?>public/template/property-details.html">Property Details</a></li> -->
+                            <li><a href="<?= base_url() ?>public/template/contact.html">Kontak</a></li>
                             <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -99,7 +100,7 @@ https://templatemo.com/tm-591-villa-agency
             <div class="item item-1">
                 <div class="header-text">
                     <!-- <span class="category">Toronto, <em>Canada</em></span> -->
-                    <!-- <h2>Hurry!<br>Get the Best Villa for you</h2> -->
+                    <h2>Hurry!<br>Get the Best Villa for you</h2>
                 </div>
             </div>
             <!-- <div class="item item-2">
