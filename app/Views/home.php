@@ -100,7 +100,7 @@ https://templatemo.com/tm-591-villa-agency
             <div class="item item-1">
                 <div class="header-text">
                     <!-- <span class="category">Toronto, <em>Canada</em></span> -->
-                    <h2>Hurry!<br>Get the Best Villa for you</h2>
+                    <h2>Hurry!<br>Dapatkan Rumah Terbaik Untuk Anda</h2>
                 </div>
             </div>
             <!-- <div class="item item-2">
@@ -124,16 +124,27 @@ https://templatemo.com/tm-591-villa-agency
                 <div class="col-lg-4">
                     <div class="left-image">
                         <img src="<?= base_url() ?>public/template/assets/images/featured.jpg" alt="">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
+                        <!-- <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a> -->
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="section-heading">
-                        <h6>| Featured</h6>
-                        <h2>Best Appartment &amp; Sea view</h2>
+                        <h6>| Who We Are</h6>
+                        <!-- <h2>Best Appartment &amp; Sea view</h2> -->
+                        <h2>Tentang Kami</h2>
                     </div>
                     <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
+                        <div class="col-lg">
+                            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.
+                                When you need free CSS templates, you can simply type TemplateMo in any search engine website.
+                                In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
+                            </p>
+                        </div>
+                        <br>
+                        <div class="main-button">
+                            <a href="<?= base_url() ?>public/template/property-details.html">Baca Selengkapnya ></a>
+                        </div>
+                        <!-- <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Best useful links ?
@@ -167,36 +178,36 @@ https://templatemo.com/tm-591-villa-agency
                                     Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="info-table">
-                        <ul>
-                            <li>
-                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
-                                <h4>250 m2<br><span>Total Flat Space</span></h4>
-                            </li>
-                            <li>
-                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
-                                <h4>Contract<br><span>Contract Ready</span></h4>
-                            </li>
-                            <li>
-                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
-                                <h4>Payment<br><span>Payment Process</span></h4>
-                            </li>
-                            <li>
-                                <img src="<?= base_url() ?>public/template/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
-                                <h4>Safety<br><span>24/7 Under Control</span></h4>
-                            </li>
-                        </ul>
-                    </div>
+                <!-- <div class="col-lg-3">
+                <div class="info-table">
+                    <ul>
+                        <li>
+                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
+                            <h4>250 m2<br><span>Total Flat Space</span></h4>
+                        </li>
+                        <li>
+                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                            <h4>Contract<br><span>Contract Ready</span></h4>
+                        </li>
+                        <li>
+                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                            <h4>Payment<br><span>Payment Process</span></h4>
+                        </li>
+                        <li>
+                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                            <h4>Safety<br><span>24/7 Under Control</span></h4>
+                        </li>
+                    </ul>
                 </div>
+            </div> -->
             </div>
         </div>
     </div>
 
-    <div class="video section">
+    <!-- <div class="video section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 offset-lg-4">
@@ -251,9 +262,9 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="section best-deal">
+    <!-- <div class="section best-deal">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -362,23 +373,23 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="properties section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 offset-lg-4">
                     <div class="section-heading text-center">
-                        <h6>| Properties</h6>
-                        <h2>We Provide The Best Property You Like</h2>
+                        <h6>| Find The Best Property You Like</h6>
+                        <h2>Subsidi & Komersil</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-01.jpg" alt=""></a>
-                        <span class="category">Luxury Villa</span>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/ruby36.jpg" alt=""></a>
+                        <span class="category">Ruby</span>
                         <h6>$2.264.000</h6>
                         <h4><a href="<?= base_url() ?>public/template/property-details.html">18 New Street Miami, OR 97219</a></h4>
                         <ul>
@@ -395,8 +406,8 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-02.jpg" alt=""></a>
-                        <span class="category">Luxury Villa</span>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/emerald45.jpg" alt=""></a>
+                        <span class="category">Emerald</span>
                         <h6>$1.180.000</h6>
                         <h4><a href="<?= base_url() ?>public/template/property-details.html">54 Mid Street Florida, OR 27001</a></h4>
                         <ul>
@@ -413,8 +424,8 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="item">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-03.jpg" alt=""></a>
-                        <span class="category">Luxury Villa</span>
+                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/amethyst60.jpg" alt=""></a>
+                        <span class="category">Amethyst</span>
                         <h6>$1.460.000</h6>
                         <h4><a href="<?= base_url() ?>public/template/property-details.html">26 Old Street Miami, OR 38540</a></h4>
                         <ul>
@@ -429,7 +440,7 @@ https://templatemo.com/tm-591-villa-agency
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <!-- <div class="col-lg-4 col-md-6">
                     <div class="item">
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-04.jpg" alt=""></a>
                         <span class="category">Apartment</span>
@@ -482,7 +493,7 @@ https://templatemo.com/tm-591-villa-agency
                             <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -493,7 +504,7 @@ https://templatemo.com/tm-591-villa-agency
                 <div class="col-lg-4 offset-lg-4">
                     <div class="section-heading text-center">
                         <h6>| Contact Us</h6>
-                        <h2>Get In Touch With Our Agents</h2>
+                        <h2>Hubungi Kami</h2>
                     </div>
                 </div>
             </div>
@@ -527,31 +538,31 @@ https://templatemo.com/tm-591-villa-agency
                         <div class="row">
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="name">Full Name</label>
-                                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                                    <label for="name">Nama Lengkap</label>
+                                    <input type="name" name="name" id="name" autocomplete="on" required>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="email">Email Address</label>
-                                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                                    <label for="email">Alamat Email</label>
+                                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" required="">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="subject">Subject</label>
-                                    <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on">
+                                    <label for="subject">Nomor Handphone</label>
+                                    <input type="subject" name="subject" id="subject" autocomplete="on">
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <label for="message">Message</label>
-                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                    <label for="message">Masukkan Pesan</label>
+                                    <textarea name="message" id="message"></textarea>
                                 </fieldset>
                             </div>
                             <div class="col-lg-12">
                                 <fieldset>
-                                    <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                                    <button type="submit" id="form-submit" class="orange-button">Kirim Pesan</button>
                                 </fieldset>
                             </div>
                         </div>
