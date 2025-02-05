@@ -100,7 +100,7 @@ https://templatemo.com/tm-591-villa-agency
             <div class="item item-1">
                 <div class="header-text">
                     <!-- <span class="category">Toronto, <em>Canada</em></span> -->
-                    <h2>Hurry!<br>Dapatkan Rumah Terbaik Untuk Anda</h2>
+                    <h2>Dapatkan<br>Rumah Terbaik Untuk Anda</h2>
                 </div>
             </div>
             <!-- <div class="item item-2">
@@ -264,117 +264,6 @@ https://templatemo.com/tm-591-villa-agency
         </div>
     </div> -->
 
-    <!-- <div class="section best-deal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="section-heading">
-                        <h6>| Best Deal</h6>
-                        <h2>Find Your Best Deal Right Now!</h2>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="tabs-content">
-                        <div class="row">
-                            <div class="nav-wrapper ">
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Appartment</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="info-table">
-                                                <ul>
-                                                    <li>Total Flat Space <span>185 m2</span></li>
-                                                    <li>Floor number <span>26th</span></li>
-                                                    <li>Number of rooms <span>4</span></li>
-                                                    <li>Parking Available <span>Yes</span></li>
-                                                    <li>Payment Process <span>Bank</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <img src="<?= base_url() ?>public/template/assets/images/deal-01.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <h4>Extra Info About Property</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.
-                                                <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
-                                            </p>
-                                            <div class="icon-button">
-                                                <a href="<?= base_url() ?>public/template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="villa" role="tabpanel" aria-labelledby="villa-tab">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="info-table">
-                                                <ul>
-                                                    <li>Total Flat Space <span>250 m2</span></li>
-                                                    <li>Floor number <span>26th</span></li>
-                                                    <li>Number of rooms <span>5</span></li>
-                                                    <li>Parking Available <span>Yes</span></li>
-                                                    <li>Payment Process <span>Bank</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <img src="<?= base_url() ?>public/template/assets/images/deal-02.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <h4>Detail Info About Villa</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
-                                            <div class="icon-button">
-                                                <a href="<?= base_url() ?>public/template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="info-table">
-                                                <ul>
-                                                    <li>Total Flat Space <span>320 m2</span></li>
-                                                    <li>Floor number <span>34th</span></li>
-                                                    <li>Number of rooms <span>6</span></li>
-                                                    <li>Parking Available <span>Yes</span></li>
-                                                    <li>Payment Process <span>Bank</span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <img src="<?= base_url() ?>public/template/assets/images/deal-03.jpg" alt="">
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <h4>Extra Info About Penthouse</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
-                                            <div class="icon-button">
-                                                <a href="<?= base_url() ?>public/template/property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <div class="properties section">
         <div class="container">
             <div class="row">
@@ -498,6 +387,40 @@ https://templatemo.com/tm-591-villa-agency
         </div>
     </div>
 
+    <div class="section best-deal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4">
+                    <div class="section-heading">
+                        <!-- <h6>| Best Deal</h6> -->
+                        <h2>Katalog Kami</h2>
+                    </div>
+                </div>
+                <div>
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nama Lengkap">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nomor Whatsapp">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Alamat Lengkap">
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="submit" class="btn btn-primary">Unduh Brosur</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
     <div class="contact section">
         <div class="container">
             <div class="row">
@@ -516,13 +439,13 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
                 <div class="col-lg-7">
                     <div id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/place/DE'+DIAMOND+PARK+KEDAMEAN/@-7.3244121,112.5135713,17z/data=!3m1!4b1!4m6!3m5!1s0x2e78079b68ad50f5:0x594a447648a44277!8m2!3d-7.3244121!4d112.5135713!16s%2Fg%2F11gnpl8gbb?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="item phone">
                                 <img src="<?= base_url() ?>public/template/assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                                <h6>010-020-0340<br><span>Phone Number</span></h6>
+                                <h6>+6281222234261<br><span>Phone Number</span></h6>
                             </div>
                         </div>
                         <div class="col-lg-6">
