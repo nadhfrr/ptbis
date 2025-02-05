@@ -393,10 +393,57 @@ https://templatemo.com/tm-591-villa-agency
                 <div class="col-lg-4 offset-lg-4">
                     <div class="section-heading">
                         <!-- <h6>| Best Deal</h6> -->
-                        <h2>Katalog Kami</h2>
+                        <!-- <h2>Katalog Kami</h2> -->
                     </div>
                 </div>
-                <div>
+
+                <div class="contact-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 offset-lg-4">
+                                <div class="section-heading">
+                                    <!-- <h6>| Best Deal</h6> -->
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <h2>Katalog Kami</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <form id="contact-form" action="" method="post">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <fieldset>
+                                                <label for="name">Nama Lengkap</label>
+                                                <input type="name" name="name" id="name" autocomplete="on" required>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <fieldset>
+                                                <label for="subject">Nomor Handphone</label>
+                                                <input type="subject" name="subject" id="subject" autocomplete="on">
+                                            </fieldset>
+                                        </div>
+
+                                        <div class="col-sm-12">
+                                            <fieldset>
+                                                <label for="email">Alamat Lengkap</label>
+                                                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" required="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <fieldset>
+                                                <button type="submit" id="form-submit" class="orange-button">Unduh Brosur</button>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div>
                     <form action="" method="post" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-sm-3">
@@ -413,10 +460,11 @@ https://templatemo.com/tm-591-villa-agency
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+
     </div>
     </div>
     </div>
