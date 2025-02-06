@@ -413,27 +413,27 @@ https://templatemo.com/tm-591-villa-agency
                             <div class="col-lg-12">
                                 <form id="contact-form" action="" method="post">
                                     <div class="row">
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-4">
                                             <fieldset>
                                                 <label for="name">Nama Lengkap</label>
                                                 <input type="name" name="name" id="name" autocomplete="on" required>
                                             </fieldset>
                                         </div>
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-4">
                                             <fieldset>
                                                 <label for="subject">Nomor Handphone</label>
                                                 <input type="subject" name="subject" id="subject" autocomplete="on">
                                             </fieldset>
                                         </div>
 
-                                        <div class="col-sm-12">
+                                        <div class="col-sm-4">
                                             <fieldset>
                                                 <label for="email">Alamat Lengkap</label>
                                                 <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" required="">
                                             </fieldset>
                                         </div>
-                                        <div class="col-lg-12">
-                                            <fieldset>
+                                        <div class="col-sm-4">
+                                            <fieldset class="d-flex justify-content-center">
                                                 <button type="submit" id="form-submit" class="orange-button">Unduh Brosur</button>
                                             </fieldset>
                                         </div>
