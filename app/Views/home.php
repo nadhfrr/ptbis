@@ -43,7 +43,7 @@ https://templatemo.com/tm-591-villa-agency
     </div>
     <!-- ***** Preloader End ***** -->
 
-    <div class="sub-header">
+    <!-- <div class="sub-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-8">
@@ -62,7 +62,7 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -115,6 +115,92 @@ https://templatemo.com/tm-591-villa-agency
                     <h2>Act Now!<br>Get the highest level penthouse</h2>
                 </div>
             </div> -->
+        </div>
+
+        <!-- <div class="section best-deal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-4">
+                        <div class="section-heading">
+                            <h6>| Best Deal</h6>
+                            <h2>Katalog Kami</h2>
+                        </div>
+                    </div>
+
+                    <div>
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nama Lengkap">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nomor Whatsapp">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Alamat Lengkap">
+                            </div>
+                            <div class="col-sm-3">
+                                <button type="submit" class="btn btn-primary">Unduh Brosur</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="contact-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-4">
+                        <div class="section-heading">
+                            <!-- <h6>| Best Deal</h6> -->
+                            <br>
+                            <br>
+                            <!-- <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h2>Katalog Kami</h2> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <form id="contact-form" action="" method="post">
+                            <div class="col-lg-12 offset-lg-5">
+                                <h3>Katalog Kami</h3>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <fieldset>
+                                        <!-- <label for="name">Nama Lengkap</label> -->
+                                        <input type="text" name="name" id="name" autocomplete="on" placeholder="Nama Lengkap" required>
+                                    </fieldset>
+                                </div>
+                                <div class="col-sm-4">
+                                    <fieldset>
+                                        <!-- <label for="nomor">Nomor Handphone</label> -->
+                                        <input type="text" name="nomor" id="nomor" autocomplete="on" placeholder="Nomor Telp." required>
+                                    </fieldset>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <fieldset>
+                                        <!-- <label for="alamat">Alamat Lengkap</label> -->
+                                        <input type="text" name="alamat" id="alamat" autocomplete="on" placeholder="Alamat Lengkap" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-sm-12">
+                                    <fieldset class="d-flex justify-content-center">
+                                        <button type="submit" id="form-submit" class="orange-button">Unduh Brosur</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -279,17 +365,17 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="item">
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/ruby36.jpg" alt=""></a>
                         <span class="category">Ruby</span>
-                        <h6>$2.264.000</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">18 New Street Miami, OR 97219</a></h4>
+                        <h6>300.000.000</h6>
+                        <h4><a href="#">Rumah 1 Lantai Tipe 36, 6 x 12</a></h4>
                         <ul>
-                            <li>Bedrooms: <span>8</span></li>
-                            <li>Bathrooms: <span>8</span></li>
-                            <li>Area: <span>545m2</span></li>
-                            <li>Floor: <span>3</span></li>
-                            <li>Parking: <span>6 spots</span></li>
+                            <li>Bedrooms: <span>2</span></li>
+                            <li>Bathrooms: <span>1</span></li>
+                            <li>Area: <span>72m2</span></li>
+                            <li>Floor: <span>1</span></li>
+                            <li>Parking: <span>1 spots</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -297,17 +383,17 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="item">
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/emerald45.jpg" alt=""></a>
                         <span class="category">Emerald</span>
-                        <h6>$1.180.000</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">54 Mid Street Florida, OR 27001</a></h4>
+                        <h6>500.000.000</h6>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">Rumah 1 Lantai Tipe 45, 7 x 12</a></h4>
                         <ul>
-                            <li>Bedrooms: <span>6</span></li>
-                            <li>Bathrooms: <span>5</span></li>
-                            <li>Area: <span>450m2</span></li>
-                            <li>Floor: <span>3</span></li>
-                            <li>Parking: <span>8 spots</span></li>
+                            <li>Bedrooms: <span>2</span></li>
+                            <li>Bathrooms: <span>1</span></li>
+                            <li>Area: <span>84m2</span></li>
+                            <li>Floor: <span>1</span></li>
+                            <li>Parking: <span>1 spots</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -315,17 +401,17 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="item">
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/amethyst60.jpg" alt=""></a>
                         <span class="category">Amethyst</span>
-                        <h6>$1.460.000</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">26 Old Street Miami, OR 38540</a></h4>
+                        <h6>600.000.000</h6>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">Rumah 2 Lantai Tipe 60, 6 x 11</a></h4>
                         <ul>
-                            <li>Bedrooms: <span>5</span></li>
-                            <li>Bathrooms: <span>4</span></li>
-                            <li>Area: <span>225m2</span></li>
-                            <li>Floor: <span>3</span></li>
-                            <li>Parking: <span>10 spots</span></li>
+                            <li>Bedrooms: <span>3</span></li>
+                            <li>Bathrooms: <span>2</span></li>
+                            <li>Area: <span>66m2</span></li>
+                            <li>Floor: <span>2</span></li>
+                            <li>Parking: <span>1 spots</span></li>
                         </ul>
                         <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
+                            <a href="<?= base_url() ?>public/template/property-details.html">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -387,83 +473,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
     </div>
 
-    <div class="section best-deal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 offset-lg-4">
-                    <div class="section-heading">
-                        <!-- <h6>| Best Deal</h6> -->
-                        <!-- <h2>Katalog Kami</h2> -->
-                    </div>
-                </div>
 
-                <div class="contact-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4 offset-lg-4">
-                                <div class="section-heading">
-                                    <!-- <h6>| Best Deal</h6> -->
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <br>
-                                    <h2>Katalog Kami</h2>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <form id="contact-form" action="" method="post">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <fieldset>
-                                                <label for="name">Nama Lengkap</label>
-                                                <input type="name" name="name" id="name" autocomplete="on" required>
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <fieldset>
-                                                <label for="subject">Nomor Handphone</label>
-                                                <input type="subject" name="subject" id="subject" autocomplete="on">
-                                            </fieldset>
-                                        </div>
-
-                                        <div class="col-sm-4">
-                                            <fieldset>
-                                                <label for="email">Alamat Lengkap</label>
-                                                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" required="">
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <fieldset class="d-flex justify-content-center">
-                                                <button type="submit" id="form-submit" class="orange-button">Unduh Brosur</button>
-                                            </fieldset>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div>
-                    <form action="" method="post" enctype="multipart/form-data">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nama Lengkap">
-                            </div>
-                            <div class="col-sm-3">
-                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nomor Whatsapp">
-                            </div>
-                            <div class="col-sm-3">
-                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Alamat Lengkap">
-                            </div>
-                            <div class="col-sm-3">
-                                <button type="submit" class="btn btn-primary">Unduh Brosur</button>
-                            </div>
-                        </div>
-                    </form>
-                </div> -->
-            </div>
-        </div>
-    </div>
 
     </div>
     </div>
@@ -487,7 +497,7 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
                 <div class="col-lg-7">
                     <div id="map">
-                        <iframe src="https://www.google.com/maps/place/DE'+DIAMOND+PARK+KEDAMEAN/@-7.3244121,112.5135713,17z/data=!3m1!4b1!4m6!3m5!1s0x2e78079b68ad50f5:0x594a447648a44277!8m2!3d-7.3244121!4d112.5135713!16s%2Fg%2F11gnpl8gbb?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.2924404876667!2d112.51357130000001!3d-7.324412099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78079b68ad50f5%3A0x594a447648a44277!2sde&#39;%20Diamond%20Park!5e1!3m2!1sid!2sid!4v1738944004090!5m2!1sid!2sid" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
@@ -545,10 +555,8 @@ https://templatemo.com/tm-591-villa-agency
 
     <footer>
         <div class="container">
-            <div class="col-lg-8">
-                <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved.
-
-                    Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+            <div class="col-lg-12">
+                <p>Copyright &copy; PT. Berkah Intan Sejahtera <?= date('Y'); ?>. All Rights Reserved</p>
             </div>
         </div>
     </footer>
