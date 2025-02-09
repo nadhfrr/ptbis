@@ -43,27 +43,6 @@ https://templatemo.com/tm-591-villa-agency
     </div>
     <!-- ***** Preloader End ***** -->
 
-    <!-- <div class="sub-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-8">
-                    <ul class="info">
-                        <li><i class="fa fa-envelope"></i> info@company.com</li>
-                        <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <ul class="social-links">
-                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
@@ -71,16 +50,15 @@ https://templatemo.com/tm-591-villa-agency
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="<?= base_url() ?>template/index.html" class="logo">
+                        <a href="<?= base_url() ?>public" class="logo">
                             <h1>De'Diamond</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="<?= base_url() ?>public/template/index.html" class="active">Beranda</a></li>
+                            <li><a href="<?= base_url() ?>public" class="active">Beranda</a></li>
                             <li><a href="<?= base_url() ?>public/template/index.html">Tentang Kami</a></li>
                             <li><a href="<?= base_url() ?>public/template/properties.html">Produk</a></li>
-                            <!-- <li><a href="<?= base_url() ?>public/template/property-details.html">Property Details</a></li> -->
                             <li><a href="<?= base_url() ?>public/template/contact.html">Kontak</a></li>
                             <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
                         </ul>
@@ -99,70 +77,18 @@ https://templatemo.com/tm-591-villa-agency
         <div class="owl-carousel owl-banner">
             <div class="item item-1">
                 <div class="header-text">
-                    <!-- <span class="category">Toronto, <em>Canada</em></span> -->
                     <h2>Dapatkan<br>Rumah Terbaik Untuk Anda</h2>
                 </div>
             </div>
-            <!-- <div class="item item-2">
-                <div class="header-text">
-                    <span class="category">Melbourne, <em>Australia</em></span>
-                    <h2>Be Quick!<br>Get the best villa in town</h2>
-                </div>
-            </div>
-            <div class="item item-3">
-                <div class="header-text">
-                    <span class="category">Miami, <em>South Florida</em></span>
-                    <h2>Act Now!<br>Get the highest level penthouse</h2>
-                </div>
-            </div> -->
         </div>
 
-        <!-- <div class="section best-deal">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 offset-lg-4">
-                        <div class="section-heading">
-                            <h6>| Best Deal</h6>
-                            <h2>Katalog Kami</h2>
-                        </div>
-                    </div>
-
-                    <div>
-                    <form action="" method="post" enctype="multipart/form-data">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nama Lengkap">
-                            </div>
-                            <div class="col-sm-3">
-                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Nomor Whatsapp">
-                            </div>
-                            <div class="col-sm-3">
-                                <input type="text" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="Alamat Lengkap">
-                            </div>
-                            <div class="col-sm-3">
-                                <button type="submit" class="btn btn-primary">Unduh Brosur</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                </div>
-            </div>
-        </div> -->
         <div class="contact-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 offset-lg-4">
                         <div class="section-heading">
-                            <!-- <h6>| Best Deal</h6> -->
                             <br>
                             <br>
-                            <!-- <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <h2>Katalog Kami</h2> -->
                         </div>
                     </div>
                     <div class="col-lg-12">
@@ -174,20 +100,17 @@ https://templatemo.com/tm-591-villa-agency
                             <div class="row">
                                 <div class="col-sm-4">
                                     <fieldset>
-                                        <!-- <label for="name">Nama Lengkap</label> -->
                                         <input type="text" name="name" id="name" autocomplete="on" placeholder="Nama Lengkap" required>
                                     </fieldset>
                                 </div>
                                 <div class="col-sm-4">
                                     <fieldset>
-                                        <!-- <label for="nomor">Nomor Handphone</label> -->
                                         <input type="text" name="nomor" id="nomor" autocomplete="on" placeholder="Nomor Telp." required>
                                     </fieldset>
                                 </div>
 
                                 <div class="col-sm-4">
                                     <fieldset>
-                                        <!-- <label for="alamat">Alamat Lengkap</label> -->
                                         <input type="text" name="alamat" id="alamat" autocomplete="on" placeholder="Alamat Lengkap" required="">
                                     </fieldset>
                                 </div>
@@ -207,148 +130,33 @@ https://templatemo.com/tm-591-villa-agency
     <div class="featured section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="left-image">
-                        <img src="<?= base_url() ?>public/template/assets/images/featured.jpg" alt="">
-                        <!-- <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a> -->
+                        <img src="<?= base_url() ?>public/template/assets/images/amethyst60.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="section-heading">
                         <h6>| Who We Are</h6>
-                        <!-- <h2>Best Appartment &amp; Sea view</h2> -->
                         <h2>Tentang Kami</h2>
+                        <div class="accordion" id="accordionExample">
+                            <div class="col-lg">
+                                <p align="justify">Di De’ Diamond Park, Anda akan menemukan rumah minimalis yang memukau dan memenuhi semua kebutuhan hidup modern Anda.
+                                    Berlokasi di Kedamean, Gresik.
+                                    Hunian ini adalah perwujudan dari cita-cita memiliki rumah yang nyaman dan bergaya.
+                                </p>
+                            </div>
+                            <br>
+                            <div class="main-button">
+                                <a href="<?= base_url() ?>public/template/property-details.html">Baca Selengkapnya ></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="col-lg">
-                            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.
-                                When you need free CSS templates, you can simply type TemplateMo in any search engine website.
-                                In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
-                            </p>
-                        </div>
-                        <br>
-                        <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Baca Selengkapnya ></a>
-                        </div>
-                        <!-- <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Best useful links ?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best free CSS templates</a> in the world. Please tell your friends about it.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How does this work ?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Why is Villa Agency the best ?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-                <!-- <div class="col-lg-3">
-                <div class="info-table">
-                    <ul>
-                        <li>
-                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
-                            <h4>250 m2<br><span>Total Flat Space</span></h4>
-                        </li>
-                        <li>
-                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
-                            <h4>Contract<br><span>Contract Ready</span></h4>
-                        </li>
-                        <li>
-                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
-                            <h4>Payment<br><span>Payment Process</span></h4>
-                        </li>
-                        <li>
-                            <img src="<?= base_url() ?>public/template/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
-                            <h4>Safety<br><span>24/7 Under Control</span></h4>
-                        </li>
-                    </ul>
-                </div>
-            </div> -->
-            </div>
-        </div>
-    </div>
 
-    <!-- <div class="video section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 offset-lg-4">
-                    <div class="section-heading text-center">
-                        <h6>| Video View</h6>
-                        <h2>Get Closer View & Different Feeling</h2>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="video-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="video-frame">
-                        <img src="<?= base_url() ?>public/template/assets/images/video-frame.jpg" alt="">
-                        <a href="https://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="fun-facts">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="wrapper">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="counter">
-                                    <h2 class="timer count-title count-number" data-to="34" data-speed="1000"></h2>
-                                    <p class="count-text ">Buildings<br>Finished Now</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="counter">
-                                    <h2 class="timer count-title count-number" data-to="12" data-speed="1000"></h2>
-                                    <p class="count-text ">Years<br>Experience</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="counter">
-                                    <h2 class="timer count-title count-number" data-to="24" data-speed="1000"></h2>
-                                    <p class="count-text ">Awwards<br>Won 2023</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <div class="properties section">
         <div class="container">
@@ -415,65 +223,9 @@ https://templatemo.com/tm-591-villa-agency
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6">
-                    <div class="item">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-04.jpg" alt=""></a>
-                        <span class="category">Apartment</span>
-                        <h6>$584.500</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">12 New Street Miami, OR 12650</a></h4>
-                        <ul>
-                            <li>Bedrooms: <span>4</span></li>
-                            <li>Bathrooms: <span>3</span></li>
-                            <li>Area: <span>125m2</span></li>
-                            <li>Floor: <span>25th</span></li>
-                            <li>Parking: <span>2 cars</span></li>
-                        </ul>
-                        <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="item">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-05.jpg" alt=""></a>
-                        <span class="category">Penthouse</span>
-                        <h6>$925.600</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">34 Beach Street Miami, OR 42680</a></h4>
-                        <ul>
-                            <li>Bedrooms: <span>4</span></li>
-                            <li>Bathrooms: <span>4</span></li>
-                            <li>Area: <span>180m2</span></li>
-                            <li>Floor: <span>38th</span></li>
-                            <li>Parking: <span>2 cars</span></li>
-                        </ul>
-                        <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="item">
-                        <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/property-06.jpg" alt=""></a>
-                        <span class="category">Modern Condo</span>
-                        <h6>$450.000</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">22 New Street Portland, OR 16540</a></h4>
-                        <ul>
-                            <li>Bedrooms: <span>3</span></li>
-                            <li>Bathrooms: <span>2</span></li>
-                            <li>Area: <span>165m2</span></li>
-                            <li>Floor: <span>26th</span></li>
-                            <li>Parking: <span>3 cars</span></li>
-                        </ul>
-                        <div class="main-button">
-                            <a href="<?= base_url() ?>public/template/property-details.html">Schedule a visit</a>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
-
-
 
     </div>
     </div>
@@ -548,6 +300,22 @@ https://templatemo.com/tm-591-villa-agency
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-4">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
