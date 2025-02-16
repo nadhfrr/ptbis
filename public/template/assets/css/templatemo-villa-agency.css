@@ -88,7 +88,7 @@ nav,
 section,
 article,
 aside,
-footer,
+footer
 figcaption {
   margin: 0;
   padding: 0;
@@ -156,7 +156,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #000000;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -1279,20 +1279,23 @@ Properties Style
   color: #97BDE2;
 }
 
+/* text penjelasan tipe rumah */
 .properties .item ul li {
   display: inline-block;
   font-size: 15px;
-  color: #4a4a4a;
+  color: #000000;
   margin-right: 20px;
 }
 
+/* text penjelasan tipe rumah */
 .properties .item ul li span {
   font-weight: 600;
-  color: #1e1e1e;
+  color: #000000;
 }
 
+/* garis di dalam section split kotak */
 .properties .item ul {
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #000000;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
@@ -1317,8 +1320,10 @@ Contact Style
 --------------------------------------------- 
 */
 
+/* section contact */
 .contact {
-  background-image: url(../images/contact-bg.jpg);
+  background-color: #97BDE2;
+  /* background-image: url(../images/contact-bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1327,7 +1332,7 @@ Contact Style
 }
 
 .contact .section-heading h2 {
-  color: #fff;
+  color: #000000;
 }
 
 .contact-content {
@@ -1341,11 +1346,12 @@ Contact Style
   margin-bottom: 60px;
 }
 
+/* kotak section telp dan email */
 .contact-content .item {
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   padding: 35px 30px;
-  background-color: #fff;
+  background-color: #C8DBEF;
 }
 
 .contact-content .phone {
@@ -1370,7 +1376,7 @@ Contact Style
 
 .contact-content .item h6 span {
   font-size: 15px;
-  color: #aaaaaa;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -1442,15 +1448,15 @@ footer.footer-no-gap {
 }
 
 footer {
-  margin-top: 150px;
-  background-color: #1e1e1e;
+  margin-top: 50px;
+  background-color: #ffffff;
   min-height: 100px;
 }
 
 footer p {
   text-align: center;
   line-height: 100px;
-  color: #fff;
+  color: #27568B;
   font-size: 16px;
   font-weight: 400;
 }
