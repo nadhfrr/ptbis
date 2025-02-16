@@ -218,8 +218,9 @@ body {
   color: #0071f8;
 }
 
+/* Warna tulisan dengan ukuran / model h6 */
 .section-heading h6 {
-  color: #ee626b;
+  color: #27568B;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -258,21 +259,22 @@ body {
   color: #fff;
 }
 
+/* button section */
 .main-button a {
   display: inline-block;
-  background-color: #1e1e1e;
-  color: #fff;
+  background-color: #C8DBEF;
+  color: #000000;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
   line-height: 40px;
   padding: 0px 30px;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: all .3s;
 }
 
 .main-button a:hover {
-  background-color: #f35525;
+  background-color: #97BDE2;
   color: #fff;
 }
 
@@ -1244,22 +1246,23 @@ Best Deal Style
 Properties Style
 --------------------------------------------- 
 */
-
+/* section kotak split */
 .properties .item {
-  background-color: #fafafa;
+  background-color: #F3F6FC;
   border-radius: 10px;
   padding: 30px;
   margin-bottom: 30px;
 }
 
+/* images di section kotak split */
 .properties .item img {
-  border-radius: 10px;
-}
-
-.properties .item span.category {
-  background-color: #fbd9cf;
-  font-weight: 500;
   border-radius: 5px;
+}
+/* text area nama tipe rumah di dalam section kotak split */
+.properties .item span.category {
+  background-color: #C8DBEF;
+  font-weight: 500;
+  border-radius: 10px;
   font-size: 14px;
   color: #1e1e1e;
   padding: 5px 12px;
@@ -1271,9 +1274,9 @@ Properties Style
   font-size: 19px;
   margin: 25px 0px;
 }
-
+/* Text sub judul di section split kotak tipe rumah */
 .properties .item h4 a {
-  color: #1e1e1e;
+  color: #97BDE2;
 }
 
 .properties .item ul li {
@@ -1293,10 +1296,10 @@ Properties Style
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
-
+/* text harga di dalam section kotak split */
 .properties .item h6 {
-  font-size: 20px;
-  color: #f35525;
+  font-size: 25px;
+  color: #203B5A;
   margin-top: 6px;
   display: inline-block;
   float: right;
