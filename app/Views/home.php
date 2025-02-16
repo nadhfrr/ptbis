@@ -51,6 +51,7 @@ https://templatemo.com/tm-591-villa-agency
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="<?= base_url() ?>public" class="logo">
+                        <!-- <img src="<?= base_url() ?>public/template/assets/images/Icon_Logo_Berwarna.png" alt=""> -->
                             <h1>De'Diamond</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
