@@ -534,7 +534,7 @@ Header Style
   letter-spacing: .25px;
 }
 
-.header-area .main-nav .nav li:last-child a {
+/* .header-area .main-nav .nav li:last-child a {
   background-color: #1e1e1e;
   color: #fff;
   font-size: 14px;
@@ -542,7 +542,7 @@ Header Style
   text-transform: none;
   border-radius: 20px;
   padding-left: 0px;
-}
+} */
 
 .header-area .main-nav .nav li:last-child a i {
   background-color: #f35525;
@@ -556,9 +556,9 @@ Header Style
   margin-left: -1px;
 }
 
-.header-area .main-nav .nav li:last-child:hover a {
+/* .header-area .main-nav .nav li:last-child:hover a {
   background-color: #ff0000;
-}
+} */
 
 .header-area .main-nav .nav li:last-child:hover a i {
   color: #E6EEF8;
