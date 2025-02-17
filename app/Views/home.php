@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -49,16 +50,16 @@ https://templatemo.com/tm-591-villa-agency
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="<?= base_url() ?>public" class="logo">
-                        <!-- <img src="<?= base_url() ?>public/template/assets/images/Icon_Logo_Berwarna.png" alt=""> -->
-                        <h1>de'Diamond</h1>
+                            <!-- <img src="<?= base_url() ?>public/template/assets/images/Icon_Logo_Berwarna.png" alt=""> -->
+                            <h1>de'Diamond</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
-                         
+
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="<?= base_url() ?>public" class="active">Beranda</a></li>
                             <li><a href="<?= base_url() ?>public/template/index.html">Tentang Kami</a></li>
-                            <li><a href="<?= base_url() ?>public/template/properties.html">Produk</a></li>
+                            <li><a href="<?= base_url() ?>public/template/properties.php">Produk</a></li>
                             <li><a href="<?= base_url() ?>public/template/contact.php">Berita</a></li>
                             <li><a href="<?= base_url() ?>public/template/contact.php">Kontak</a></li>
                             <!-- <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li> -->
@@ -142,7 +143,7 @@ https://templatemo.com/tm-591-villa-agency
                         <h2>Tentang Kami</h2>
                         <div class="accordion" id="accordionExample">
                             <div class="col-lg">
-                                <p align="justify">Di de' Diamond Park, Anda akan menemukan rumah minimalis yang memukau dan 
+                                <p align="justify">Di de' Diamond Park, Anda akan menemukan rumah minimalis yang memukau dan
                                     memenuhi semua kebutuhan hidup modern Anda.
                                     Berlokasi di Kedamean, Gresik.
                                     Hunian ini adalah perwujudan dari cita-cita memiliki rumah yang nyaman dan bergaya.
