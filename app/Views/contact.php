@@ -59,6 +59,7 @@ https://templatemo.com/tm-591-villa-agency
                     <li><a href="<?= base_url() ?>public/template/home.php">Beranda</a></li>
                             <li><a href="<?= base_url() ?>public/template/index.html">Tentang Kami</a></li>
                             <li><a href="<?= base_url() ?>public/template/properties.html">Produk</a></li>
+                            <li><a href="<?= base_url() ?>public/template/contact.php">Berita</a></li>
                             <li><a href="<?= base_url() ?>public" class="active">Kontak</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
                   </ul>   
