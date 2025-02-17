@@ -408,7 +408,7 @@ Header Style
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-color: #cdcdcd;
+  background-color: #27568b;
   border-radius: 50%;
   text-align: center;
   line-height: 30px;
@@ -418,7 +418,7 @@ Header Style
 }
 
 .sub-header ul.social-links li a:hover {
-  background-color: #f35525;
+  background-color: #609ad0;
 }
 
 .sub-header ul.info li {

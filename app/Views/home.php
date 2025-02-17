@@ -50,15 +50,16 @@ https://templatemo.com/tm-591-villa-agency
                         <!-- ***** Logo Start ***** -->
                         <a href="<?= base_url() ?>public" class="logo">
                         <!-- <img src="<?= base_url() ?>public/template/assets/images/Icon_Logo_Berwarna.png" alt=""> -->
-                            <h1>De'Diamond</h1>
+                        <h1>de'Diamond</h1>
                         </a>
                         <!-- ***** Logo End ***** -->
+                         
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="<?= base_url() ?>public" class="active">Beranda</a></li>
                             <li><a href="<?= base_url() ?>public/template/index.html">Tentang Kami</a></li>
                             <li><a href="<?= base_url() ?>public/template/properties.html">Produk</a></li>
-                            <li><a href="<?= base_url() ?>public/template/contact.html">Kontak</a></li>
+                            <li><a href="<?= base_url() ?>public/template/contact.php">Kontak</a></li>
                             <!-- <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li> -->
                         </ul>
                         <a class='menu-trigger'>
@@ -140,7 +141,8 @@ https://templatemo.com/tm-591-villa-agency
                         <h2>Tentang Kami</h2>
                         <div class="accordion" id="accordionExample">
                             <div class="col-lg">
-                                <p align="justify">Di De’ Diamond Park, Anda akan menemukan rumah minimalis yang memukau dan memenuhi semua kebutuhan hidup modern Anda.
+                                <p align="justify">Di de' Diamond Park, Anda akan menemukan rumah minimalis yang memukau dan 
+                                    memenuhi semua kebutuhan hidup modern Anda.
                                     Berlokasi di Kedamean, Gresik.
                                     Hunian ini adalah perwujudan dari cita-cita memiliki rumah yang nyaman dan bergaya.
                                 </p>
@@ -173,13 +175,13 @@ https://templatemo.com/tm-591-villa-agency
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/ruby36.jpg" alt=""></a>
                         <span class="category">Ruby</span>
                         <h6>300.000.000</h6>
-                        <h4><a href="#">Rumah 1 Lantai Tipe 36, 6 x 12</a></h4>
+                        <h4><a href="#">Rumah 1 Lantai Tipe 36 | 6m x 12m</a></h4>
                         <ul>
-                            <li>Bedrooms: <span>2</span></li>
-                            <li>Bathrooms: <span>1</span></li>
-                            <li>Area: <span>72m2</span></li>
-                            <li>Floor: <span>1</span></li>
-                            <li>Parking: <span>1 spots</span></li>
+                            <li>K. Tidur: <span>2</span></li>
+                            <li>K. Mandi: <span>1</span></li>
+                            <li>L. Bangunan: <span>72m2</span></li>
+                            <li>Lantai: <span>1</span></li>
+                            <li>Garasi: <span>1</span></li>
                         </ul>
                         <div class="main-button">
                             <a href="<?= base_url() ?>public/template/property-details.html">Lihat Detail</a>
@@ -191,13 +193,13 @@ https://templatemo.com/tm-591-villa-agency
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/emerald45.jpg" alt=""></a>
                         <span class="category">Emerald</span>
                         <h6>500.000.000</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">Rumah 1 Lantai Tipe 45, 7 x 12</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">Rumah 1 Lantai Tipe 45 | 7m x 12m</a></h4>
                         <ul>
-                            <li>Bedrooms: <span>2</span></li>
-                            <li>Bathrooms: <span>1</span></li>
-                            <li>Area: <span>84m2</span></li>
-                            <li>Floor: <span>1</span></li>
-                            <li>Parking: <span>1 spots</span></li>
+                            <li>K. Tidur: <span>2</span></li>
+                            <li>K. Mandi: <span>1</span></li>
+                            <li>L. Bangunan: <span>84m2</span></li>
+                            <li>Lantai: <span>1</span></li>
+                            <li>Garasi: <span>1</span></li>
                         </ul>
                         <div class="main-button">
                             <a href="<?= base_url() ?>public/template/property-details.html">Lihat Detail</a>
@@ -209,13 +211,13 @@ https://templatemo.com/tm-591-villa-agency
                         <a href="<?= base_url() ?>public/template/property-details.html"><img src="<?php echo base_url() ?>public/template/assets/images/amethyst60.jpg" alt=""></a>
                         <span class="category">Amethyst</span>
                         <h6>600.000.000</h6>
-                        <h4><a href="<?= base_url() ?>public/template/property-details.html">Rumah 2 Lantai Tipe 60, 6 x 11</a></h4>
+                        <h4><a href="<?= base_url() ?>public/template/property-details.html">Rumah 2 Lantai Tipe 60 | 6m x 11m</a></h4>
                         <ul>
-                            <li>Bedrooms: <span>3</span></li>
-                            <li>Bathrooms: <span>2</span></li>
-                            <li>Area: <span>66m2</span></li>
-                            <li>Floor: <span>2</span></li>
-                            <li>Parking: <span>1 spots</span></li>
+                            <li>K. Tidur: <span>3</span></li>
+                            <li>K. Mandi: <span>2</span></li>
+                            <li>L. Bangunan: <span>66m2</span></li>
+                            <li>Lantai: <span>2</span></li>
+                            <li>Garasi: <span>1</span></li>
                         </ul>
                         <div class="main-button">
                             <a href="<?= base_url() ?>public/template/property-details.html">Lihat Detail</a>
