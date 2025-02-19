@@ -159,6 +159,22 @@ https://templatemo.com/tm-591-villa-agency
             </div>
           </form>
         </div>
+        <!-- header logo sosmed -->
+        <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- maps -->
         <div class="col-lg-12">
           <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3823.2924404876667!2d112.51357130000001!3d-7.324412099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78079b68ad50f5%3A0x594a447648a44277!2sde&#39;%20Diamond%20Park!5e1!3m2!1sid!2sid!4v1738944004090!5m2!1sid!2sid" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
@@ -167,7 +183,7 @@ https://templatemo.com/tm-591-villa-agency
       </div>
     </div>
   </div>
-
+    
   <footer>
     <div class="container">
       <div class="col-lg-12">
