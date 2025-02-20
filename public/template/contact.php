@@ -93,7 +93,7 @@ https://templatemo.com/tm-591-villa-agency
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <span class="breadcrumb"><a href="#">Beranda</a> / Kontak</span>
+          <!-- <span class="breadcrumb"><a href="#">Beranda</a> / Kontak</span> -->
           <h3>Kontak Kami</h3>
         </div>
       </div>
@@ -108,12 +108,14 @@ https://templatemo.com/tm-591-villa-agency
             <h6>| Contact</h6>
             <h2>Hubungi Kami</h2>
           </div>
-          <p>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
+          <p>Jangan lewatkan kesempatan ini untuk memiliki rumah minimalis yang mengagumkan di De’ Diamond Park. 
+            Hubungi kami sekarang untuk informasi lebih lanjut dan jadikan impian Anda tentang hunian yang ideal menjadi kenyataan. 
+            Di De’ Diamond Park, gaya hidup minimalis yang nyaman menanti Anda.</p>
           <div class="row">
             <div class="col-lg-12">
               <div class="item phone">
                 <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                <h6>010-020-0340<br><span>Phone Number</span></h6>
+                <h6>+628122223461<br><span>Nomor Telepon</span></h6>
               </div>
             </div>
             <div class="col-lg-12">
@@ -129,31 +131,32 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="name">Full Name</label>
-                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  <label for="name">Nama Lengkap</label>
+                  <input type="name" name="name" id="name" placeholder="Nama Lengkap" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  <label for="email">Alamat Email</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email Anda" required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on">
+                  <label for="subject">Nomor Telepon</label>
+                  <input type="subject" name="subject" id="subject" placeholder="Nomor Telepon" autocomplete="on">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  <label for="message">Masukkan Pesan</label>
+                  <textarea name="message" id="message" placeholder="Tulisan Pesan Anda"></textarea>
+                  <p>*Keamanan data Anda terjamin. Kami tidak menyebarkan data Anda ke pihak manapun*</p>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                  <button type="submit" id="form-submit" class="orange-button">Kirim</button>
                 </fieldset>
               </div>
             </div>
